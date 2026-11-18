@@ -1,0 +1,8 @@
+{
+  "name": "Matrix Command",
+  "description": "High-density institutional financial mission-control and overnight quantitative competition terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

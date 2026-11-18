@@ -1,0 +1,233 @@
+---
+name: Matrix Command
+colors:
+  surface: '#121414'
+  surface-dim: '#121414'
+  surface-bright: '#373a39'
+  surface-container-lowest: '#0c0f0f'
+  surface-container-low: '#1a1c1c'
+  surface-container: '#1e2020'
+  surface-container-high: '#282a2a'
+  surface-container-highest: '#333535'
+  on-surface: '#e2e2e2'
+  on-surface-variant: '#bacbb9'
+  inverse-surface: '#e2e2e2'
+  inverse-on-surface: '#2f3131'
+  outline: '#859585'
+  outline-variant: '#3b4a3d'
+  surface-tint: '#00e475'
+  primary: '#75ff9e'
+  on-primary: '#003918'
+  primary-container: '#00e676'
+  on-primary-container: '#00612e'
+  inverse-primary: '#006d35'
+  secondary: '#4ce08e'
+  on-secondary: '#00391d'
+  secondary-container: '#00b86b'
+  on-secondary-container: '#004122'
+  tertiary: '#b8f1d2'
+  on-tertiary: '#003825'
+  tertiary-container: '#9dd4b7'
+  on-tertiary-container: '#285d46'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#62ff96'
+  primary-fixed-dim: '#00e475'
+  on-primary-fixed: '#00210b'
+  on-primary-fixed-variant: '#005226'
+  secondary-fixed: '#6cfda8'
+  secondary-fixed-dim: '#4ce08e'
+  on-secondary-fixed: '#00210f'
+  on-secondary-fixed-variant: '#00522d'
+  tertiary-fixed: '#b7efd1'
+  tertiary-fixed-dim: '#9bd3b5'
+  on-tertiary-fixed: '#002114'
+  on-tertiary-fixed-variant: '#19503a'
+  background: '#121414'
+  on-background: '#e2e2e2'
+  surface-variant: '#333535'
+typography:
+  display-hero:
+    fontFamily: Geist
+    fontSize: 40px
+    fontWeight: '600'
+    lineHeight: 48px
+    letterSpacing: -0.03em
+  display-hero-mobile:
+    fontFamily: Geist
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Geist
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 32px
+    letterSpacing: -0.02em
+  headline-md:
+    fontFamily: Geist
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  body-lg:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 22px
+    letterSpacing: -0.005em
+  body-md:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+    letterSpacing: 0em
+  data-mono-lg:
+    fontFamily: JetBrains Mono
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+    letterSpacing: -0.02em
+  data-mono-md:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: -0.01em
+  data-mono-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+    letterSpacing: 0.02em
+  label-caps:
+    fontFamily: JetBrains Mono
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 12px
+    letterSpacing: 0.08em
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-dense: 0.5rem
+  margin: 1.5rem
+  margin-mobile: 0.75rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+---
+
+## Brand & Style
+
+This design system establishes an atmospheric, high-performance financial mission-control environment tailored for an intense overnight competition. It bridges the deep information density of elite institutional trading desks (such as Bloomberg Terminal) with the kinetic, hyper-refined precision of modern developer tools like Linear.
+
+### Personality & Tone
+- **High-Stakes & Mission-Critical:** Built to evoke calm focus under extreme temporal pressure. Every interface node communicates authority, zero latency, and absolute analytical fidelity.
+- **Architectural Precision:** Zero decorative fluff. Every pixel, stroke, and readout serves telemetry, real-time data streaming, and strategic decision-making.
+- **Sub-surface Luminosity:** A dark, obsidian canvas activated by sharp phosphorescent emerald accents, reminiscent of radar scopes, clean-room telemetry, and low-latency financial exchanges.
+
+### Target Audience & Psychological Posture
+Designed for collegiate founders, quantitative traders, venture capitalists, and operators operating in an adversarial, rapid-fire hackathon/pitch environment. The UI provokes alertness, competitive instinct, and rigorous analytical clarity throughout the night.
+
+## Colors
+
+The palette operates on calibrated low-emission surfaces designed for low-light environments, punctuated by high-phosphor functional indicators.
+
+### Surface Architecture
+- **Canvas Primary (`#070909`):** Deepest void layer for global viewport canvases and full-bleed stage backgrounds.
+- **Surface Secondary (`#0C1110`):** Structural panel grouping, gutters, sidebars, and sub-navigation docks.
+- **Surface Container (`#101715`):** Standard data cards, modular telemetry tiles, and analytical tables.
+- **Surface Elevated (`#151D19`):** Popovers, floating action bars, dropdown overlays, and modal command palettes.
+
+### Functional & Signal Accents
+- **Signal Primary (`#00E676`):** Active triggers, primary KPIs, cursor tracking, and focused input states.
+- **Signal Secondary (`#00B86B`):** System confirmations, stable status indicators, and secondary metrics.
+- **Signal Muted (`#285D46`):** Dormant tracks, progress backgrounds, structural rules, and non-critical data trends.
+- **Alpha Positive (`#00D68F`):** Yield growth, positive delta, and long positions.
+- **Alpha Negative (`#FF5364`):** Liquidation risks, drawdowns, latency alerts, and short positions.
+
+### Text & Border Tokens
+- **Text High-Fidelity (`#F2F5F3`):** Primary readouts, table values, active labels.
+- **Text Low-Fidelity (`#87948D`):** Metadata, column headers, units, timestamps.
+- **Border Structural (`#1B2420` / `rgba(255, 255, 255, 0.07)`): Crisp 1px division lines separating dense information zones.
+
+## Typography
+
+The typographic hierarchy balances instant scanning with micro-level numerical fidelity.
+
+### Hierarchy & Application
+- **Headers (`Geist`):** Delivers clean, geometric tension for deck titles, major dashboard sector divisions, and modal headers.
+- **Narrative Content (`Inter`):** Neutral and optically balanced for briefing paragraphs, regulatory summaries, and long-form investment theses.
+- **Telemetry & Readouts (`JetBrains Mono`):** Applied to all tabular matrices, market tickers, percentages, execution timestamps, code payloads, and delta tags.
+- **Tabular Figures:** All numeric rendering in `JetBrains Mono` must enable tabular figures (`font-variant-numeric: tabular-nums`) to prevent horizontal jitter during high-velocity data streaming.
+
+## Layout & Spacing
+
+The system enforces a strict 8px base rhythm with 4px sub-grid subdivisions for dense financial components. 
+
+### Grid Configuration
+- **Desktop (>= 1280px):** 12-column or 16-column flexible command layout with `1.5rem` margins and `1rem` gutters. For high-density trading blocks and order books, use `gutter-dense` (`0.5rem`).
+- **Tablet (768px - 1279px):** 8-column layout. Analytical sidebars collapse into toggleable drawer overlays or split horizontally.
+- **Mobile (< 768px):** 4-column layout with `0.75rem` outer margins. Dense multi-column tables convert to horizontally scrollable viewports or stacked metric cards.
+
+### Layout Philosophy
+- **Dense Modularity:** Utilize docked toolbars, sticky status rails, and edge-to-edge data panes. 
+- **Fixed-Height Modules:** Viewport-conscious dashboard components lock to predefined grid heights to avoid mid-session page jumps.
+
+## Elevation & Depth
+
+Visual hierarchy does not rely on soft drop shadows, which dilute contrast in mission-critical night environments. Instead, depth is generated via surface stratification and crisp edge definition.
+
+### Layer Hierarchy
+1. **Level 0 (Canvas):** Pure `#070909`. Non-interactive background backdrop.
+2. **Level 1 (Panels):** `#0C1110` with `1px solid #1B2420`. Main workspace layout blocks.
+3. **Level 2 (Cards & Tiles):** `#101715` with `1px solid rgba(255, 255, 255, 0.07)`. Actionable modules.
+4. **Level 3 (Overlays & Dialogs):** `#151D19` with `1px solid #285D46` and an ultra-subtle directional border glow (`box-shadow: 0 0 16px rgba(0, 230, 118, 0.08)`).
+
+### Luminous Accents
+Active, hovered, or critical nodes receive a localized, low-spread luminescent stroke (`0 0 8px rgba(0, 230, 118, 0.25)`), reinforcing real-time system feedback without obscuring surrounding data.
+
+## Shapes
+
+The design uses a restrained, compact shape system (`roundedness: 1`) to project technical rigor, maximize internal pixel real estate, and eliminate wasted corner padding.
+
+- **Base Radius (0.25rem / 4px):** Standard buttons, input bars, chip tags, table row highlights, and micro indicators.
+- **Card/Container Radius (0.5rem / 8px):** Dashboard cards, modal sheets, floating analytical panes, and charts.
+- **Extreme Precision:** Pills and full rounds are restricted exclusively to live status beacons (e.g., ping dots, active system status indicators).
+
+## Components
+
+### Buttons & Trigger Controls
+- **Primary Execution:** Solid `#00E676` background, `#070909` text, `font-family: JetBrains Mono`, uppercase 12px, font-weight 600. On hover: background `#00B86B` with a subtle `0 0 12px rgba(0, 230, 118, 0.3)` glow.
+- **Secondary / Ghost:** Transparent background, `1px solid #1B2420`, `#F2F5F3` text. On hover: border transitions to `#285D46` with `#101715` background fill.
+- **Destructive / Abort:** Border `#FF5364`, text `#FF5364`, transparent background. On hover: background `rgba(255, 83, 100, 0.12)`.
+
+### Financial Data Tables & Tickers
+- **Container:** Border `1px solid #1B2420` with alternating row background (`#0C1110` and `#101715`).
+- **Headers:** `label-caps` typography, text `#87948D`, uppercase, tracking `0.08em`, bottom border `1px solid #1B2420`.
+- **Numeric Cells:** Right-aligned `JetBrains Mono` figures. Delta positive figures prefixed with `+` in `#00D68F`; negative figures prefixed with `-` in `#FF5364`.
+- **Live Cell Flashes:** On price/value updates, the cell background briefly illuminates with `rgba(0, 230, 118, 0.15)` before decaying to transparent over 400ms.
+
+### Input Fields & Terminal Prompts
+- **Surface:** `#0C1110` background, `1px solid #1B2420` border, `0.25rem` radius, 36px standard height.
+- **Typography:** `JetBrains Mono` 13px, text `#F2F5F3`. Placeholder color `#87948D`.
+- **Focus State:** Border shifts cleanly to `#00E676` with a crisp outer glow (`box-shadow: 0 0 0 1px #00E676, 0 0 8px rgba(0, 230, 118, 0.2)`).
+
+### Status Indicators & Badges
+- **Live Indicator Chip:** Height 20px, padding `0 6px`, border `1px solid #285D46`, background `#0C1110`, typography `label-caps`. 
+- **Beacon Dot:** 6px circle with a ping animation (`#00E676`) denoting socket connections and streaming telemetry.
+
+### Cards & Metric Modules
+- **Frame:** `#101715` background, `1px solid rgba(255, 255, 255, 0.07)`, padding `space-md` (16px).
+- **Metric Layout:** Top row holds the category label in `label-caps` (`#87948D`) and an optional status pill. Center stage displays the primary figure in `data-mono-lg` (`#F2F5F3`). Bottom rail provides the percentage delta accompanied by a micro sparkline.
